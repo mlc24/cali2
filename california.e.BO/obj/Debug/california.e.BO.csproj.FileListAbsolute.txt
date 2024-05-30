@@ -1,0 +1,6 @@
+C:\Users\aluno\source\repos\california.e.UI\california.e.BO\bin\Debug\california.e.BO.dll
+C:\Users\aluno\source\repos\california.e.UI\california.e.BO\bin\Debug\california.e.BO.pdb
+C:\Users\aluno\source\repos\california.e.UI\california.e.BO\obj\Debug\california.e.BO.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\california.e.UI\california.e.BO\obj\Debug\california.e.BO.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\california.e.UI\california.e.BO\obj\Debug\california.e.BO.dll
+C:\Users\aluno\source\repos\california.e.UI\california.e.BO\obj\Debug\california.e.BO.pdb
