@@ -16,5 +16,21 @@ namespace california.e.UI
         {
             InitializeComponent();
         }
+
+        private void CadFun_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lnkVoltarCli_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void lnkVoltarFun_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            telaMenu telaMenu = new telaMenu();
+            telaMenu.Show();
+        }
     }
 }

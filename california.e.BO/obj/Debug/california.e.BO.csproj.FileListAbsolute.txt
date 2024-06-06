@@ -4,3 +4,9 @@ C:\Users\aluno\source\repos\california.e.UI\california.e.BO\obj\Debug\california
 C:\Users\aluno\source\repos\california.e.UI\california.e.BO\obj\Debug\california.e.BO.csproj.CoreCompileInputs.cache
 C:\Users\aluno\source\repos\california.e.UI\california.e.BO\obj\Debug\california.e.BO.dll
 C:\Users\aluno\source\repos\california.e.UI\california.e.BO\obj\Debug\california.e.BO.pdb
+C:\Users\aluno\Documents\teste050624\cali2\california.e.BO\bin\Debug\california.e.BO.dll
+C:\Users\aluno\Documents\teste050624\cali2\california.e.BO\bin\Debug\california.e.BO.pdb
+C:\Users\aluno\Documents\teste050624\cali2\california.e.BO\obj\Debug\california.e.BO.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\teste050624\cali2\california.e.BO\obj\Debug\california.e.BO.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\teste050624\cali2\california.e.BO\obj\Debug\california.e.BO.dll
+C:\Users\aluno\Documents\teste050624\cali2\california.e.BO\obj\Debug\california.e.BO.pdb

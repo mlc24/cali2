@@ -33,13 +33,14 @@ namespace california.e.UI
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.nometxt = new System.Windows.Forms.TextBox();
-            this.endtxt = new System.Windows.Forms.TextBox();
-            this.telefonetxt = new System.Windows.Forms.TextBox();
-            this.cpftxt = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.CadCli = new System.Windows.Forms.Button();
+            this.nomeCliTxt = new System.Windows.Forms.TextBox();
+            this.endCliTxt = new System.Windows.Forms.TextBox();
+            this.telefoneCliTxt = new System.Windows.Forms.TextBox();
+            this.cpfCliTxt = new System.Windows.Forms.TextBox();
+            this.lblSubt = new System.Windows.Forms.Label();
+            this.lblTitl = new System.Windows.Forms.Label();
+            this.cadCliBtn = new System.Windows.Forms.Button();
+            this.voltarCliLkn = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label6
@@ -78,80 +79,92 @@ namespace california.e.UI
             this.label2.TabIndex = 51;
             this.label2.Text = "Nome";
             // 
-            // nometxt
+            // nomeCliTxt
             // 
-            this.nometxt.Location = new System.Drawing.Point(266, 141);
-            this.nometxt.Name = "nometxt";
-            this.nometxt.Size = new System.Drawing.Size(232, 20);
-            this.nometxt.TabIndex = 48;
+            this.nomeCliTxt.Location = new System.Drawing.Point(266, 141);
+            this.nomeCliTxt.Name = "nomeCliTxt";
+            this.nomeCliTxt.Size = new System.Drawing.Size(232, 20);
+            this.nomeCliTxt.TabIndex = 48;
             // 
-            // endtxt
+            // endCliTxt
             // 
-            this.endtxt.Location = new System.Drawing.Point(266, 277);
-            this.endtxt.Name = "endtxt";
-            this.endtxt.Size = new System.Drawing.Size(232, 20);
-            this.endtxt.TabIndex = 47;
+            this.endCliTxt.Location = new System.Drawing.Point(266, 277);
+            this.endCliTxt.Name = "endCliTxt";
+            this.endCliTxt.Size = new System.Drawing.Size(232, 20);
+            this.endCliTxt.TabIndex = 47;
             // 
-            // telefonetxt
+            // telefoneCliTxt
             // 
-            this.telefonetxt.Location = new System.Drawing.Point(266, 233);
-            this.telefonetxt.Name = "telefonetxt";
-            this.telefonetxt.Size = new System.Drawing.Size(232, 20);
-            this.telefonetxt.TabIndex = 46;
+            this.telefoneCliTxt.Location = new System.Drawing.Point(266, 233);
+            this.telefoneCliTxt.Name = "telefoneCliTxt";
+            this.telefoneCliTxt.Size = new System.Drawing.Size(232, 20);
+            this.telefoneCliTxt.TabIndex = 46;
             // 
-            // cpftxt
+            // cpfCliTxt
             // 
-            this.cpftxt.Location = new System.Drawing.Point(266, 180);
-            this.cpftxt.Name = "cpftxt";
-            this.cpftxt.Size = new System.Drawing.Size(232, 20);
-            this.cpftxt.TabIndex = 45;
+            this.cpfCliTxt.Location = new System.Drawing.Point(266, 180);
+            this.cpfCliTxt.Name = "cpfCliTxt";
+            this.cpfCliTxt.Size = new System.Drawing.Size(232, 20);
+            this.cpfCliTxt.TabIndex = 45;
             // 
-            // label4
+            // lblSubt
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(21, 67);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(147, 24);
-            this.label4.TabIndex = 61;
-            this.label4.Text = "Cadastro Cliente";
+            this.lblSubt.AutoSize = true;
+            this.lblSubt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubt.Location = new System.Drawing.Point(21, 67);
+            this.lblSubt.Name = "lblSubt";
+            this.lblSubt.Size = new System.Drawing.Size(147, 24);
+            this.lblSubt.TabIndex = 61;
+            this.lblSubt.Text = "Cadastro Cliente";
             // 
-            // label11
+            // lblTitl
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(8, 19);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(196, 48);
-            this.label11.TabIndex = 60;
-            this.label11.Text = "California ";
+            this.lblTitl.AutoSize = true;
+            this.lblTitl.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitl.Location = new System.Drawing.Point(8, 19);
+            this.lblTitl.Name = "lblTitl";
+            this.lblTitl.Size = new System.Drawing.Size(196, 48);
+            this.lblTitl.TabIndex = 60;
+            this.lblTitl.Text = "California ";
             // 
-            // CadCli
+            // cadCliBtn
             // 
-            this.CadCli.Location = new System.Drawing.Point(224, 347);
-            this.CadCli.Name = "CadCli";
-            this.CadCli.Size = new System.Drawing.Size(313, 42);
-            this.CadCli.TabIndex = 62;
-            this.CadCli.Text = "Cadastrar";
-            this.CadCli.UseVisualStyleBackColor = true;
-            this.CadCli.Click += new System.EventHandler(this.CadCli_Click);
+            this.cadCliBtn.Location = new System.Drawing.Point(224, 347);
+            this.cadCliBtn.Name = "cadCliBtn";
+            this.cadCliBtn.Size = new System.Drawing.Size(313, 42);
+            this.cadCliBtn.TabIndex = 62;
+            this.cadCliBtn.Text = "Cadastrar";
+            this.cadCliBtn.UseVisualStyleBackColor = true;
+            this.cadCliBtn.Click += new System.EventHandler(this.CadCli_Click);
+            // 
+            // voltarCliLkn
+            // 
+            this.voltarCliLkn.AutoSize = true;
+            this.voltarCliLkn.Location = new System.Drawing.Point(660, 392);
+            this.voltarCliLkn.Name = "voltarCliLkn";
+            this.voltarCliLkn.Size = new System.Drawing.Size(78, 13);
+            this.voltarCliLkn.TabIndex = 63;
+            this.voltarCliLkn.TabStop = true;
+            this.voltarCliLkn.Text = "Voltar ao menu";
+            this.voltarCliLkn.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkVoltarCli_LinkClicked);
             // 
             // telaCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.CadCli);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.voltarCliLkn);
+            this.Controls.Add(this.cadCliBtn);
+            this.Controls.Add(this.lblSubt);
+            this.Controls.Add(this.lblTitl);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.nometxt);
-            this.Controls.Add(this.endtxt);
-            this.Controls.Add(this.telefonetxt);
-            this.Controls.Add(this.cpftxt);
+            this.Controls.Add(this.nomeCliTxt);
+            this.Controls.Add(this.endCliTxt);
+            this.Controls.Add(this.telefoneCliTxt);
+            this.Controls.Add(this.cpfCliTxt);
             this.Name = "telaCliente";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.telaCliente_Load);
@@ -165,13 +178,14 @@ namespace california.e.UI
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox nometxt;
-        private System.Windows.Forms.TextBox endtxt;
-        private System.Windows.Forms.TextBox telefonetxt;
-        private System.Windows.Forms.TextBox cpftxt;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button CadCli;
+        private System.Windows.Forms.TextBox nomeCliTxt;
+        private System.Windows.Forms.TextBox endCliTxt;
+        private System.Windows.Forms.TextBox telefoneCliTxt;
+        private System.Windows.Forms.TextBox cpfCliTxt;
+        private System.Windows.Forms.Label lblSubt;
+        private System.Windows.Forms.Label lblTitl;
+        private System.Windows.Forms.Button cadCliBtn;
+        private System.Windows.Forms.LinkLabel voltarCliLkn;
     }
 }
 

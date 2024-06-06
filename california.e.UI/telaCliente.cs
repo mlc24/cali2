@@ -20,13 +20,13 @@ namespace california.e.UI
 
         private void CadCli_Click(object sender, EventArgs e)
         {
-            if(nometxt.Text == "" || cpftxt.Text == "" || telefonetxt.Text == "" || endtxt.Text == "" )
+            if(nomeCliTxt.Text == "" || cpfCliTxt.Text == "" || telefoneCliTxt.Text == "" || endCliTxt.Text == "" )
             {
-                MessageBox.Show("Acesso Negado");
+                MessageBox.Show("Por favor, preencha os campos.");
             }
             else
             {
-                MessageBox.Show("Acesso Liberado");
+                MessageBox.Show("Usuário cadastrado.");
                 telaMenu telaMenu = new telaMenu();
                 telaMenu.Show();
                 this.Hide();
@@ -36,6 +36,12 @@ namespace california.e.UI
         private void telaCliente_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void lnkVoltarCli_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            telaMenu telaMenu = new telaMenu();
+            telaMenu.Show();
         }
     }
 }

@@ -29,25 +29,25 @@ namespace california.e.UI
         /// </summary>
         private void InitializeComponent()
         {
-            this.CadFun = new System.Windows.Forms.LinkLabel();
+            this.cadFunLkn = new System.Windows.Forms.LinkLabel();
             this.label4 = new System.Windows.Forms.Label();
-            this.EnterUser = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.logEnterBtn = new System.Windows.Forms.Button();
+            this.logPwdLbl = new System.Windows.Forms.Label();
+            this.logUserLbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.LogPwd = new System.Windows.Forms.TextBox();
-            this.LogUser = new System.Windows.Forms.TextBox();
+            this.logPwdTxt = new System.Windows.Forms.TextBox();
+            this.logUserTxt = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // CadFun
+            // cadFunLkn
             // 
-            this.CadFun.AutoSize = true;
-            this.CadFun.Location = new System.Drawing.Point(417, 401);
-            this.CadFun.Name = "CadFun";
-            this.CadFun.Size = new System.Drawing.Size(66, 13);
-            this.CadFun.TabIndex = 15;
-            this.CadFun.TabStop = true;
-            this.CadFun.Text = "Cadastre-se!";
+            this.cadFunLkn.AutoSize = true;
+            this.cadFunLkn.Location = new System.Drawing.Point(417, 401);
+            this.cadFunLkn.Name = "cadFunLkn";
+            this.cadFunLkn.Size = new System.Drawing.Size(66, 13);
+            this.cadFunLkn.TabIndex = 15;
+            this.cadFunLkn.TabStop = true;
+            this.cadFunLkn.Text = "Cadastre-se!";
             // 
             // label4
             // 
@@ -59,35 +59,35 @@ namespace california.e.UI
             this.label4.TabIndex = 14;
             this.label4.Text = "California ";
             // 
-            // EnterUser
+            // logEnterBtn
             // 
-            this.EnterUser.Location = new System.Drawing.Point(340, 334);
-            this.EnterUser.Name = "EnterUser";
-            this.EnterUser.Size = new System.Drawing.Size(121, 37);
-            this.EnterUser.TabIndex = 13;
-            this.EnterUser.Text = "Entrar";
-            this.EnterUser.UseVisualStyleBackColor = true;
-            this.EnterUser.Click += new System.EventHandler(this.EnterUser_Click);
+            this.logEnterBtn.Location = new System.Drawing.Point(340, 334);
+            this.logEnterBtn.Name = "logEnterBtn";
+            this.logEnterBtn.Size = new System.Drawing.Size(121, 37);
+            this.logEnterBtn.TabIndex = 13;
+            this.logEnterBtn.Text = "Entrar";
+            this.logEnterBtn.UseVisualStyleBackColor = true;
+            this.logEnterBtn.Click += new System.EventHandler(this.EnterUser_Click);
             // 
-            // label3
+            // logPwdLbl
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(305, 235);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 18);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Senha";
+            this.logPwdLbl.AutoSize = true;
+            this.logPwdLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logPwdLbl.Location = new System.Drawing.Point(305, 235);
+            this.logPwdLbl.Name = "logPwdLbl";
+            this.logPwdLbl.Size = new System.Drawing.Size(50, 18);
+            this.logPwdLbl.TabIndex = 12;
+            this.logPwdLbl.Text = "Senha";
             // 
-            // label2
+            // logUserLbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(305, 159);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 18);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Usuário";
+            this.logUserLbl.AutoSize = true;
+            this.logUserLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logUserLbl.Location = new System.Drawing.Point(305, 159);
+            this.logUserLbl.Name = "logUserLbl";
+            this.logUserLbl.Size = new System.Drawing.Size(60, 18);
+            this.logUserLbl.TabIndex = 11;
+            this.logUserLbl.Text = "Usuário";
             // 
             // label1
             // 
@@ -99,33 +99,33 @@ namespace california.e.UI
             this.label1.TabIndex = 10;
             this.label1.Text = "Login";
             // 
-            // LogPwd
+            // logPwdTxt
             // 
-            this.LogPwd.Location = new System.Drawing.Point(308, 256);
-            this.LogPwd.Name = "LogPwd";
-            this.LogPwd.Size = new System.Drawing.Size(193, 20);
-            this.LogPwd.TabIndex = 9;
+            this.logPwdTxt.Location = new System.Drawing.Point(308, 256);
+            this.logPwdTxt.Name = "logPwdTxt";
+            this.logPwdTxt.Size = new System.Drawing.Size(193, 20);
+            this.logPwdTxt.TabIndex = 9;
             // 
-            // LogUser
+            // logUserTxt
             // 
-            this.LogUser.Location = new System.Drawing.Point(308, 180);
-            this.LogUser.Name = "LogUser";
-            this.LogUser.Size = new System.Drawing.Size(193, 20);
-            this.LogUser.TabIndex = 8;
+            this.logUserTxt.Location = new System.Drawing.Point(308, 180);
+            this.logUserTxt.Name = "logUserTxt";
+            this.logUserTxt.Size = new System.Drawing.Size(193, 20);
+            this.logUserTxt.TabIndex = 8;
             // 
             // telaLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.CadFun);
+            this.Controls.Add(this.cadFunLkn);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.EnterUser);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.logEnterBtn);
+            this.Controls.Add(this.logPwdLbl);
+            this.Controls.Add(this.logUserLbl);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.LogPwd);
-            this.Controls.Add(this.LogUser);
+            this.Controls.Add(this.logPwdTxt);
+            this.Controls.Add(this.logUserTxt);
             this.Name = "telaLogin";
             this.Text = "telaLogin";
             this.Load += new System.EventHandler(this.telaLogin_Load);
@@ -136,13 +136,13 @@ namespace california.e.UI
 
         #endregion
 
-        private System.Windows.Forms.LinkLabel CadFun;
+        private System.Windows.Forms.LinkLabel cadFunLkn;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button EnterUser;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button logEnterBtn;
+        private System.Windows.Forms.Label logPwdLbl;
+        private System.Windows.Forms.Label logUserLbl;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox LogPwd;
-        private System.Windows.Forms.TextBox LogUser;
+        private System.Windows.Forms.TextBox logPwdTxt;
+        private System.Windows.Forms.TextBox logUserTxt;
     }
 }

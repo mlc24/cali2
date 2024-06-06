@@ -29,129 +29,128 @@ namespace california.e.UI
         /// </summary>
         private void InitializeComponent()
         {
-            this.SavVenda = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.HrVenda = new System.Windows.Forms.TextBox();
-            this.NomeVenda = new System.Windows.Forms.TextBox();
-            this.dtVenda = new System.Windows.Forms.TextBox();
-            this.SaleVenda = new System.Windows.Forms.TextBox();
-            this.QuantVenda = new System.Windows.Forms.TextBox();
-            this.ValVenda = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.regVendaBtn = new System.Windows.Forms.Button();
+            this.dtVendaLbl = new System.Windows.Forms.Label();
+            this.hrVendaLbl = new System.Windows.Forms.Label();
+            this.nomeProdLbl = new System.Windows.Forms.Label();
+            this.saleVendaLbl = new System.Windows.Forms.Label();
+            this.qntVendaLbl = new System.Windows.Forms.Label();
+            this.hrVendaTxt = new System.Windows.Forms.TextBox();
+            this.nomeProdTxt = new System.Windows.Forms.TextBox();
+            this.dtVendaTxt = new System.Windows.Forms.TextBox();
+            this.saleVendaTxt = new System.Windows.Forms.TextBox();
+            this.qntVendaTxt = new System.Windows.Forms.TextBox();
+            this.valVendaTxt = new System.Windows.Forms.TextBox();
+            this.valVendaLbl = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.lklVoltar = new System.Windows.Forms.LinkLabel();
+            this.lklVoltarVnd = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
-            // SavVenda
+            // regVendaBtn
             // 
-            this.SavVenda.Location = new System.Drawing.Point(233, 346);
-            this.SavVenda.Name = "SavVenda";
-            this.SavVenda.Size = new System.Drawing.Size(193, 31);
-            this.SavVenda.TabIndex = 39;
-            this.SavVenda.Text = "Salvar";
-            this.SavVenda.UseVisualStyleBackColor = true;
+            this.regVendaBtn.Location = new System.Drawing.Point(56, 378);
+            this.regVendaBtn.Name = "regVendaBtn";
+            this.regVendaBtn.Size = new System.Drawing.Size(193, 31);
+            this.regVendaBtn.TabIndex = 39;
+            this.regVendaBtn.Text = "Salvar";
+            this.regVendaBtn.UseVisualStyleBackColor = true;
             // 
-            // label9
+            // dtVendaLbl
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(50, 296);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(30, 13);
-            this.label9.TabIndex = 38;
-            this.label9.Text = "Data";
+            this.dtVendaLbl.AutoSize = true;
+            this.dtVendaLbl.Location = new System.Drawing.Point(53, 266);
+            this.dtVendaLbl.Name = "dtVendaLbl";
+            this.dtVendaLbl.Size = new System.Drawing.Size(30, 13);
+            this.dtVendaLbl.TabIndex = 38;
+            this.dtVendaLbl.Text = "Data";
             // 
-            // label8
+            // hrVendaLbl
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(50, 341);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(30, 13);
-            this.label8.TabIndex = 37;
-            this.label8.Text = "Hora";
+            this.hrVendaLbl.AutoSize = true;
+            this.hrVendaLbl.Location = new System.Drawing.Point(53, 311);
+            this.hrVendaLbl.Name = "hrVendaLbl";
+            this.hrVendaLbl.Size = new System.Drawing.Size(30, 13);
+            this.hrVendaLbl.TabIndex = 37;
+            this.hrVendaLbl.Text = "Hora";
             // 
-            // label7
+            // nomeProdLbl
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(50, 250);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 13);
-            this.label7.TabIndex = 36;
-            this.label7.Text = "Nome produto";
+            this.nomeProdLbl.AutoSize = true;
+            this.nomeProdLbl.Location = new System.Drawing.Point(53, 220);
+            this.nomeProdLbl.Name = "nomeProdLbl";
+            this.nomeProdLbl.Size = new System.Drawing.Size(74, 13);
+            this.nomeProdLbl.TabIndex = 36;
+            this.nomeProdLbl.Text = "Nome produto";
             // 
-            // label5
+            // saleVendaLbl
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(50, 207);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 13);
-            this.label5.TabIndex = 35;
-            this.label5.Text = "inserir desconto na compra";
+            this.saleVendaLbl.AutoSize = true;
+            this.saleVendaLbl.Location = new System.Drawing.Point(53, 177);
+            this.saleVendaLbl.Name = "saleVendaLbl";
+            this.saleVendaLbl.Size = new System.Drawing.Size(134, 13);
+            this.saleVendaLbl.TabIndex = 35;
+            this.saleVendaLbl.Text = "inserir desconto na compra";
             // 
-            // label3
+            // qntVendaLbl
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(50, 166);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
-            this.label3.TabIndex = 34;
-            this.label3.Text = "quantidade";
+            this.qntVendaLbl.AutoSize = true;
+            this.qntVendaLbl.Location = new System.Drawing.Point(53, 136);
+            this.qntVendaLbl.Name = "qntVendaLbl";
+            this.qntVendaLbl.Size = new System.Drawing.Size(60, 13);
+            this.qntVendaLbl.TabIndex = 34;
+            this.qntVendaLbl.Text = "quantidade";
             // 
-            // HrVenda
+            // hrVendaTxt
             // 
-            this.HrVenda.Location = new System.Drawing.Point(53, 357);
-            this.HrVenda.Name = "HrVenda";
-            this.HrVenda.Size = new System.Drawing.Size(81, 20);
-            this.HrVenda.TabIndex = 33;
+            this.hrVendaTxt.Location = new System.Drawing.Point(56, 327);
+            this.hrVendaTxt.Name = "hrVendaTxt";
+            this.hrVendaTxt.Size = new System.Drawing.Size(81, 20);
+            this.hrVendaTxt.TabIndex = 33;
             // 
-            // NomeVenda
+            // nomeProdTxt
             // 
-            this.NomeVenda.Location = new System.Drawing.Point(53, 266);
-            this.NomeVenda.Name = "NomeVenda";
-            this.NomeVenda.Size = new System.Drawing.Size(143, 20);
-            this.NomeVenda.TabIndex = 32;
+            this.nomeProdTxt.Location = new System.Drawing.Point(56, 236);
+            this.nomeProdTxt.Name = "nomeProdTxt";
+            this.nomeProdTxt.Size = new System.Drawing.Size(143, 20);
+            this.nomeProdTxt.TabIndex = 32;
             // 
-            // dtVenda
+            // dtVendaTxt
             // 
-            this.dtVenda.Location = new System.Drawing.Point(53, 312);
-            this.dtVenda.Name = "dtVenda";
-            this.dtVenda.Size = new System.Drawing.Size(91, 20);
-            this.dtVenda.TabIndex = 31;
+            this.dtVendaTxt.Location = new System.Drawing.Point(56, 282);
+            this.dtVendaTxt.Name = "dtVendaTxt";
+            this.dtVendaTxt.Size = new System.Drawing.Size(91, 20);
+            this.dtVendaTxt.TabIndex = 31;
             // 
-            // SaleVenda
+            // saleVendaTxt
             // 
-            this.SaleVenda.Location = new System.Drawing.Point(53, 223);
-            this.SaleVenda.Name = "SaleVenda";
-            this.SaleVenda.Size = new System.Drawing.Size(131, 20);
-            this.SaleVenda.TabIndex = 30;
+            this.saleVendaTxt.Location = new System.Drawing.Point(56, 193);
+            this.saleVendaTxt.Name = "saleVendaTxt";
+            this.saleVendaTxt.Size = new System.Drawing.Size(131, 20);
+            this.saleVendaTxt.TabIndex = 30;
             // 
-            // QuantVenda
+            // qntVendaTxt
             // 
-            this.QuantVenda.Location = new System.Drawing.Point(53, 180);
-            this.QuantVenda.Name = "QuantVenda";
-            this.QuantVenda.Size = new System.Drawing.Size(131, 20);
-            this.QuantVenda.TabIndex = 29;
+            this.qntVendaTxt.Location = new System.Drawing.Point(56, 150);
+            this.qntVendaTxt.Name = "qntVendaTxt";
+            this.qntVendaTxt.Size = new System.Drawing.Size(131, 20);
+            this.qntVendaTxt.TabIndex = 29;
             // 
-            // ValVenda
+            // valVendaTxt
             // 
-            this.ValVenda.Location = new System.Drawing.Point(53, 143);
-            this.ValVenda.Name = "ValVenda";
-            this.ValVenda.Size = new System.Drawing.Size(81, 20);
-            this.ValVenda.TabIndex = 28;
+            this.valVendaTxt.Location = new System.Drawing.Point(56, 113);
+            this.valVendaTxt.Name = "valVendaTxt";
+            this.valVendaTxt.Size = new System.Drawing.Size(81, 20);
+            this.valVendaTxt.TabIndex = 28;
             // 
-            // label1
+            // valVendaLbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(50, 127);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 13);
-            this.label1.TabIndex = 27;
-            this.label1.Text = "Valor da compra";
+            this.valVendaLbl.AutoSize = true;
+            this.valVendaLbl.Location = new System.Drawing.Point(53, 97);
+            this.valVendaLbl.Name = "valVendaLbl";
+            this.valVendaLbl.Size = new System.Drawing.Size(84, 13);
+            this.valVendaLbl.TabIndex = 27;
+            this.valVendaLbl.Text = "Valor da compra";
             // 
             // label2
             // 
@@ -173,48 +172,38 @@ namespace california.e.UI
             this.label4.TabIndex = 40;
             this.label4.Text = "California ";
             // 
-            // label6
+            // lklVoltarVnd
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(613, 334);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 42;
-            this.label6.Text = "label6";
-            // 
-            // lklVoltar
-            // 
-            this.lklVoltar.AutoSize = true;
-            this.lklVoltar.Location = new System.Drawing.Point(35, 54);
-            this.lklVoltar.Name = "lklVoltar";
-            this.lklVoltar.Size = new System.Drawing.Size(78, 13);
-            this.lklVoltar.TabIndex = 43;
-            this.lklVoltar.TabStop = true;
-            this.lklVoltar.Text = "Voltar ao menu";
-            this.lklVoltar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lklVoltar_LinkClicked);
+            this.lklVoltarVnd.AutoSize = true;
+            this.lklVoltarVnd.Location = new System.Drawing.Point(662, 387);
+            this.lklVoltarVnd.Name = "lklVoltarVnd";
+            this.lklVoltarVnd.Size = new System.Drawing.Size(78, 13);
+            this.lklVoltarVnd.TabIndex = 43;
+            this.lklVoltarVnd.TabStop = true;
+            this.lklVoltarVnd.Text = "Voltar ao menu";
+            this.lklVoltarVnd.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lklVoltar_LinkClicked);
             // 
             // telaVendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lklVoltar);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lklVoltarVnd);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.SavVenda);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.HrVenda);
-            this.Controls.Add(this.NomeVenda);
-            this.Controls.Add(this.dtVenda);
-            this.Controls.Add(this.SaleVenda);
-            this.Controls.Add(this.QuantVenda);
-            this.Controls.Add(this.ValVenda);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.regVendaBtn);
+            this.Controls.Add(this.dtVendaLbl);
+            this.Controls.Add(this.hrVendaLbl);
+            this.Controls.Add(this.nomeProdLbl);
+            this.Controls.Add(this.saleVendaLbl);
+            this.Controls.Add(this.qntVendaLbl);
+            this.Controls.Add(this.hrVendaTxt);
+            this.Controls.Add(this.nomeProdTxt);
+            this.Controls.Add(this.dtVendaTxt);
+            this.Controls.Add(this.saleVendaTxt);
+            this.Controls.Add(this.qntVendaTxt);
+            this.Controls.Add(this.valVendaTxt);
+            this.Controls.Add(this.valVendaLbl);
             this.Name = "telaVendas";
             this.Text = "telaVendas";
             this.ResumeLayout(false);
@@ -224,22 +213,21 @@ namespace california.e.UI
 
         #endregion
 
-        private System.Windows.Forms.Button SavVenda;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox HrVenda;
-        private System.Windows.Forms.TextBox NomeVenda;
-        private System.Windows.Forms.TextBox dtVenda;
-        private System.Windows.Forms.TextBox SaleVenda;
-        private System.Windows.Forms.TextBox QuantVenda;
-        private System.Windows.Forms.TextBox ValVenda;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button regVendaBtn;
+        private System.Windows.Forms.Label dtVendaLbl;
+        private System.Windows.Forms.Label hrVendaLbl;
+        private System.Windows.Forms.Label nomeProdLbl;
+        private System.Windows.Forms.Label saleVendaLbl;
+        private System.Windows.Forms.Label qntVendaLbl;
+        private System.Windows.Forms.TextBox hrVendaTxt;
+        private System.Windows.Forms.TextBox nomeProdTxt;
+        private System.Windows.Forms.TextBox dtVendaTxt;
+        private System.Windows.Forms.TextBox saleVendaTxt;
+        private System.Windows.Forms.TextBox qntVendaTxt;
+        private System.Windows.Forms.TextBox valVendaTxt;
+        private System.Windows.Forms.Label valVendaLbl;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.LinkLabel lklVoltar;
+        private System.Windows.Forms.LinkLabel lklVoltarVnd;
     }
 }

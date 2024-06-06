@@ -29,32 +29,32 @@ namespace california.e.UI
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnEstoque = new System.Windows.Forms.Button();
-            this.btnVendas = new System.Windows.Forms.Button();
+            this.estoqueBtn = new System.Windows.Forms.Button();
+            this.vendasBtn = new System.Windows.Forms.Button();
             this.btnHistorico = new System.Windows.Forms.Button();
-            this.btnCadcli = new System.Windows.Forms.Button();
-            this.btnCadfun = new System.Windows.Forms.Button();
+            this.cadCliBtn = new System.Windows.Forms.Button();
+            this.cadFunBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnEstoque
+            // estoqueBtn
             // 
-            this.btnEstoque.Location = new System.Drawing.Point(48, 86);
-            this.btnEstoque.Name = "btnEstoque";
-            this.btnEstoque.Size = new System.Drawing.Size(205, 79);
-            this.btnEstoque.TabIndex = 1;
-            this.btnEstoque.Text = "Estoque";
-            this.btnEstoque.UseVisualStyleBackColor = true;
-            this.btnEstoque.Click += new System.EventHandler(this.btnEstoque_Click);
+            this.estoqueBtn.Location = new System.Drawing.Point(48, 86);
+            this.estoqueBtn.Name = "estoqueBtn";
+            this.estoqueBtn.Size = new System.Drawing.Size(205, 79);
+            this.estoqueBtn.TabIndex = 1;
+            this.estoqueBtn.Text = "Estoque";
+            this.estoqueBtn.UseVisualStyleBackColor = true;
+            this.estoqueBtn.Click += new System.EventHandler(this.btnEstoque_Click);
             // 
-            // btnVendas
+            // vendasBtn
             // 
-            this.btnVendas.Location = new System.Drawing.Point(292, 86);
-            this.btnVendas.Name = "btnVendas";
-            this.btnVendas.Size = new System.Drawing.Size(205, 79);
-            this.btnVendas.TabIndex = 3;
-            this.btnVendas.Text = "Vendas";
-            this.btnVendas.UseVisualStyleBackColor = true;
-            this.btnVendas.Click += new System.EventHandler(this.btnVendas_Click);
+            this.vendasBtn.Location = new System.Drawing.Point(292, 86);
+            this.vendasBtn.Name = "vendasBtn";
+            this.vendasBtn.Size = new System.Drawing.Size(205, 79);
+            this.vendasBtn.TabIndex = 3;
+            this.vendasBtn.Text = "Vendas";
+            this.vendasBtn.UseVisualStyleBackColor = true;
+            this.vendasBtn.Click += new System.EventHandler(this.btnVendas_Click);
             // 
             // btnHistorico
             // 
@@ -66,36 +66,36 @@ namespace california.e.UI
             this.btnHistorico.UseVisualStyleBackColor = true;
             this.btnHistorico.Click += new System.EventHandler(this.btnHistorico_Click);
             // 
-            // btnCadcli
+            // cadCliBtn
             // 
-            this.btnCadcli.Location = new System.Drawing.Point(425, 297);
-            this.btnCadcli.Name = "btnCadcli";
-            this.btnCadcli.Size = new System.Drawing.Size(205, 79);
-            this.btnCadcli.TabIndex = 5;
-            this.btnCadcli.Text = "Cadastrar cliente";
-            this.btnCadcli.UseVisualStyleBackColor = true;
-            this.btnCadcli.Click += new System.EventHandler(this.btnCadcli_Click);
+            this.cadCliBtn.Location = new System.Drawing.Point(425, 297);
+            this.cadCliBtn.Name = "cadCliBtn";
+            this.cadCliBtn.Size = new System.Drawing.Size(205, 79);
+            this.cadCliBtn.TabIndex = 5;
+            this.cadCliBtn.Text = "Cadastrar cliente";
+            this.cadCliBtn.UseVisualStyleBackColor = true;
+            this.cadCliBtn.Click += new System.EventHandler(this.btnCadcli_Click);
             // 
-            // btnCadfun
+            // cadFunBtn
             // 
-            this.btnCadfun.Location = new System.Drawing.Point(166, 297);
-            this.btnCadfun.Name = "btnCadfun";
-            this.btnCadfun.Size = new System.Drawing.Size(205, 79);
-            this.btnCadfun.TabIndex = 6;
-            this.btnCadfun.Text = "Cadastrar funcionario";
-            this.btnCadfun.UseVisualStyleBackColor = true;
-            this.btnCadfun.Click += new System.EventHandler(this.btnCadfun_Click);
+            this.cadFunBtn.Location = new System.Drawing.Point(166, 297);
+            this.cadFunBtn.Name = "cadFunBtn";
+            this.cadFunBtn.Size = new System.Drawing.Size(205, 79);
+            this.cadFunBtn.TabIndex = 6;
+            this.cadFunBtn.Text = "Cadastrar funcionario";
+            this.cadFunBtn.UseVisualStyleBackColor = true;
+            this.cadFunBtn.Click += new System.EventHandler(this.btnCadfun_Click);
             // 
             // telaMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnCadfun);
-            this.Controls.Add(this.btnCadcli);
+            this.Controls.Add(this.cadFunBtn);
+            this.Controls.Add(this.cadCliBtn);
             this.Controls.Add(this.btnHistorico);
-            this.Controls.Add(this.btnVendas);
-            this.Controls.Add(this.btnEstoque);
+            this.Controls.Add(this.vendasBtn);
+            this.Controls.Add(this.estoqueBtn);
             this.Name = "telaMenu";
             this.Text = "telaMenu";
             this.Load += new System.EventHandler(this.telaMenu_Load);
@@ -105,10 +105,10 @@ namespace california.e.UI
 
         #endregion
 
-        private System.Windows.Forms.Button btnEstoque;
-        private System.Windows.Forms.Button btnVendas;
+        private System.Windows.Forms.Button estoqueBtn;
+        private System.Windows.Forms.Button vendasBtn;
         private System.Windows.Forms.Button btnHistorico;
-        private System.Windows.Forms.Button btnCadcli;
-        private System.Windows.Forms.Button btnCadfun;
+        private System.Windows.Forms.Button cadCliBtn;
+        private System.Windows.Forms.Button cadFunBtn;
     }
 }

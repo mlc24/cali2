@@ -48,6 +48,7 @@ namespace california.e.UI
 
         private void btnCadcli_Click(object sender, EventArgs e)
         {
+            
             telaCliente telaCliente = new telaCliente();
             telaCliente.Show();
         }

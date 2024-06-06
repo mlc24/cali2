@@ -8,13 +8,9 @@ namespace california.e.BO
 {
     public class cliente
     {
-        public string nome { get; set; }
-        public string cpf { get; set; }
-        public string telefone { get; set; }
-        public string endereco { get; set; }
-
-        
-
-
+        public string nomeCliente { get; set; }
+        public string cpfCliente { get; set; }
+        public string telefoneCliente { get; set; }
+        public string enderecoCliente { get; set; }
     }
 }

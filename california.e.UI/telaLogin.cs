@@ -24,7 +24,7 @@ namespace california.e.UI
 
         private void EnterUser_Click(object sender, EventArgs e)
         {
-            if (LogUser.Text == "" || LogPwd.Text == "" )
+            if (logUserTxt.Text == "" || logPwdTxt.Text == "" )
             {
                 MessageBox.Show("Acesso Negado");
             }
